@@ -1,5 +1,6 @@
 # Autonomous Pesticide Sprayer Robot
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 Code for the **Autonomous Pesticide Sprayer Robot**.
 
 ## Description
@@ -51,3 +52,13 @@ python3 pesticidespraybot.py
      Detect navigation markers (red/blue squares).
   8. `testmotor.py`
      Test robot movement.
+
+## License & Attribution
+
+This project is licensed under the **MIT License**.
+
+**Copyright (c) 2026 Van Kristian Cuadra**
+
+While this code is open for educational review, the software architecture and system logic represent my professional engineering portfolio. If you are using this project as a reference for academic or professional purposes, **attribution is required**. 
+
+Please see the [LICENSE](LICENSE) file for the full legal text.
