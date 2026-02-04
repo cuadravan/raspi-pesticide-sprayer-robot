@@ -28,8 +28,8 @@ python3 pesticidespraybot.py
 * **Autonomous Navigation via Markers**
   The robot navigates using colored markers:
 
-  * 🔴 Red squares → move right
-  * 🔵 Blue squares → move left
+  * 🔴 Red squares → move left
+  * 🔵 Blue squares → move right
 
 * **SMS Alert and Auto-Terminate**
   If pesticide levels are low, the robot sends an SMS via Twilio/WhatsApp and terminates operations safely.
