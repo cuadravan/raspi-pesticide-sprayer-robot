@@ -3,6 +3,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 Code for the **Autonomous Pesticide Sprayer Robot**.
 
+## Video Showcase
+
+https://github.com/user-attachments/assets/e7281a75-e334-48a4-890e-7f8c3c24ce05
+
 ## Description
 This repository contains the code I developed for our robotics project.  
 The code is written in Python and runs on a Raspberry Pi.  
