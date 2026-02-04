@@ -444,7 +444,7 @@ class PesticideSprayingSystem:
     def navigateMode(self):
         navigationColor = self.camera.takeMarkerFrame() # Before getting distances, first check marker through camera
         print(f"Colors: {navigationColor}")
-        if(navigationColor[0] == 0 and navigationColor[1] == 1): # If marker is a red square
+        if(navigationColor[0] == 0 and navigationColor[1] == 1): # If marker is a blue square
             self.motorSystem.stopSystem() # Stop robot
             self.motorSystem.moveRight() # Let it rotate right
             self.lcd.displayInformation(0, 0, "R", 0) # LCD display
@@ -452,7 +452,7 @@ class PesticideSprayingSystem:
             time.sleep(self.rotateRightDelay) # Let it rotate fully
             self.motorSystem.stopSystem() # Stop rotation
             self.motorSystem.moveForward() # Resume forward movement
-        elif(navigationColor[0] == 1 and navigationColor[1] == 0): # Else if blue square, same thing except left
+        elif(navigationColor[0] == 1 and navigationColor[1] == 0): # Else if red square, same thing except left
             self.motorSystem.stopSystem()
             self.motorSystem.moveLeft()
             self.lcd.displayInformation(0, 0, "L", 0)
